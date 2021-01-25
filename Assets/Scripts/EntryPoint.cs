@@ -32,17 +32,17 @@ public class EntryPoint : MonoBehaviour
         var appHudModel = new AppHudModel(_chatBoxView, _usersBoxView);
         _appHudView.Initialize(appHudModel);
         
-        //StartCoroutine(SendMessageFromAllAuthors());
+        StartCoroutine(SendMessageFromAllAuthors());
     }
 
-    // private IEnumerator SendMessageFromAllAuthors()
-    // {
-    //     foreach (var user in _chatUsersProvider.ChatUsers)
-    //     {
-    //         _chat.SendMessage(user, $"Hello, it's me, {user.UserName}!");
-    //         yield return new WaitForSeconds(0.5f);
-    //     }
-    // }
+    private IEnumerator SendMessageFromAllAuthors()
+    {
+        foreach (var user in _chatUsersProvider.ChatUsers)
+        {
+            _chat.SendMessage(user, $"Hello, it's me, {user.UserName}!");
+            yield return new WaitForSeconds(0.5f);
+        }
+    }
 
     private void OnDestroy()
     {
