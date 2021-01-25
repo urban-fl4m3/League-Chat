@@ -475,18 +475,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 319566526}
     m_Modifications:
-    - target: {fileID: 272177594611323233, guid: 514bf27134a7f4748824a310f594889e, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 24.23706
-      objectReference: {fileID: 0}
-    - target: {fileID: 272177594927585035, guid: 514bf27134a7f4748824a310f594889e, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 272177595369280912, guid: 514bf27134a7f4748824a310f594889e, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 272177595773915744, guid: 514bf27134a7f4748824a310f594889e, type: 3}
       propertyPath: m_Name
       value: ChatBoxView
@@ -509,7 +497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 272177595773915747, guid: 514bf27134a7f4748824a310f594889e, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 272177595773915747, guid: 514bf27134a7f4748824a310f594889e, type: 3}
       propertyPath: m_AnchorMin.x
@@ -525,7 +513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 272177595773915747, guid: 514bf27134a7f4748824a310f594889e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1775.9979
+      value: -144.00208
       objectReference: {fileID: 0}
     - target: {fileID: 272177595773915747, guid: 514bf27134a7f4748824a310f594889e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -561,7 +549,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 272177595773915747, guid: 514bf27134a7f4748824a310f594889e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1032
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 272177595773915747, guid: 514bf27134a7f4748824a310f594889e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -574,10 +562,6 @@ PrefabInstance:
     - target: {fileID: 272177595773915747, guid: 514bf27134a7f4748824a310f594889e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 272177596186138805, guid: 514bf27134a7f4748824a310f594889e, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -5.749756
       objectReference: {fileID: 0}
     - target: {fileID: 272177596190951895, guid: 514bf27134a7f4748824a310f594889e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -733,6 +717,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 319566526}
     m_Modifications:
+    - target: {fileID: 5827424970107053112, guid: c2190d98049a0694280d883c5edd9f62, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827424970107053112, guid: c2190d98049a0694280d883c5edd9f62, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827424970107053112, guid: c2190d98049a0694280d883c5edd9f62, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5827424970589777282, guid: c2190d98049a0694280d883c5edd9f62, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -820,6 +816,18 @@ PrefabInstance:
     - target: {fileID: 5827424970589777283, guid: c2190d98049a0694280d883c5edd9f62, type: 3}
       propertyPath: m_Name
       value: UsersView
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827424970589777283, guid: c2190d98049a0694280d883c5edd9f62, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827424971225715727, guid: c2190d98049a0694280d883c5edd9f62, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827424971225715727, guid: c2190d98049a0694280d883c5edd9f62, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2190d98049a0694280d883c5edd9f62, type: 3}
